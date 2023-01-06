@@ -12,6 +12,7 @@ pipeline {
             steps {
                 dir ('hello-world-war') {
                 sh 'mvn package'
+                sh 'mvn package'
             }
         }
     }
